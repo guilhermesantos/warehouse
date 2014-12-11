@@ -92,7 +92,7 @@ function crawl(html, engine) {
 
 ## Parâmetros
 
-Ao cadastrar um HunterScript é possível adicionar parâmetros, cada qual formado por um valor e um tipo, tendo como principal objetivo organizar e simplificar um script. Por exemplo, imagine que você queira fazer um script para ser avisado quando o preco de um certo produto for menor que R$ 100,00. Ao invés de você colocar este valor "hard-coded" dentro do script, existe a possibilidade de criar um novo parâmetro do tipo Number com o valor 100, que poderá ser acessado na lista de parâmetros da função crawl logo após o objeto engine, na ordem que forem inseridos.
+Ao cadastrar um HunterScript é possível adicionar parâmetros, cada qual formado por um valor e um tipo, tendo como principal objetivo organizar e simplificar um script. Por exemplo, imagine que você queira fazer um script para ser avisado quando o preço de um certo produto for menor que R$ 100,00. Ao invés de você colocar este valor "hard-coded" dentro do script, existe a possibilidade de criar um novo parâmetro do tipo Number com o valor 100, que poderá ser acessado na lista de parâmetros da função crawl logo após o objeto engine, na ordem que forem inseridos.
 
 ```javascript
 function crawl(html, engine, precoMaximo) {
