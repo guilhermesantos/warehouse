@@ -90,6 +90,15 @@ function crawl(html, engine) {
 }
 ```
 
+## Parâmetros
+
+Ao cadastrar um HunterScript é possível adicionar parâmetros que são registros que consistem de um valor e um tipo. Os parâmetros server para organizar e simplificar um script, imagine por exemplo que você queira fazer um script para ser avisado quando o preco de um certo produto for menor que R$100, ao invés de você colocar este valor "hard-coded" dentro do script, existe a possibilidade de criar um novo parâmetro do tipo Number com o valor 100, e todos os parâmetros são passados para a função na ordem que foram adicionados logo após do objeto engine.
+
+## Armazem
+
+Este repositório que você está acessando contem o Armazem, que consiste em uma base de scripts feitos por outros usuários e compartilhados para que fossem reutilizados.
+
+Fique a vontade para utilizar e também para contribuir com scripts que você fizer utilizando pull requests, a única restrição é que o script submetido obedeça o padrão abaixo:
 
 ```javascript
 /*
@@ -102,3 +111,8 @@ function crawl(html, engine, someNumber, someBoolean, someString) {
     // Do stuff
 }
 ```
+
+Apenas atenção para o atributo Tags, onde o mesmo deve conter tags com os assuntos relacionado a funcionalidade do script, e as mesmas devem por convenção estar em inglês, pois isso será utilizados no futuro para realizar indíces de busca.
+
+
+Happy Hunting!
