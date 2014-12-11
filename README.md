@@ -122,7 +122,7 @@ Apenas atenção para o atributo Tags, pois ele deve conter tags com os assuntos
 
 ## CSS Selectors não suportados
 
-Alguns css selectors ainda não são suportados pelo info hunter abaixo todos os que nós identificamos ainda não funcionar
+Alguns css selectors ainda não são suportados pelo info hunter abaixo todos os que nós já identificamos
 
 - :first, :last e etc
 
