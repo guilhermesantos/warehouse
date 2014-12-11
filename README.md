@@ -120,5 +120,10 @@ function crawl(html, engine, someNumber, someBoolean, someString) {
 
 Apenas atenção para o atributo Tags, pois ele deve conter tags com os assuntos relacionados à funcionalidade do script e, por convenção, devem estar em inglês uma vez que no futuro serão utilizadas para criar índices de busca.
 
+## CSS Selectors não suportados
+
+Alguns css selectors ainda não são suportados pelo info hunter abaixo todos os que nós identificamos ainda não funcionar
+
+- :first, :last e etc
 
 Happy Hunting!
