@@ -73,6 +73,13 @@ Nodes é o objeto retornado pela função select do objeto html e é utilizado p
 * attr: função que retorna o valor de algum atributo deste node, ela deve receber como parâmetro em sua chamada o nome do atributo desejado
 * each: função que itera sobre todos os elementos deste node, ela recebe como parâmetro uma função de callback, esta função de callback por sua vez recebe como parâmetro o elemento atual da iteração, veja um exemplo abaixo
 
+## Objeto engine
+
+Engine é o segundo parâmetro da função crawl e possui as seguintes funções utilitárias
+
+* sendEmail: Função responsável por realizar o envio de algum e-mail para o usuário, recebe dois parâmetros, o primeiro é o assunto e o segundo o corpo do email, o corpo pode ser escrito como html para melhor visualização do email
+* logMessage: Função responsável por imprimir alguma mensagem, recebe um parâmetro apenas que consisti na mensagem a ser impressa no log. *Esta função por enquanto exibe log apenas no modo de teste da tela de edição de script*
+
 ```javascript
 function crawl(html, engine) {
     var elements = html.select('p'); // Busca todas os parágrafos da página
